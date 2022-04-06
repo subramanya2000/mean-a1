@@ -1,0 +1,59 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #e6e6fa;
+}
+
+nav{
+    background-color: #e6fae6 ;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold0;
+    
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px ;
+    list-style: none;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+nav ul li a{
+    color: white;
+    font-size: 20px;   
+    text-transform: uppercase;    
+}
+
+a:hover{
+    background: #1b9bff;
+    transition: 0.5s;
+
+}
+
+#about{
+    font-weight: lighter;
+
+}
+
+#about{
+    list-style: circle;
+}
